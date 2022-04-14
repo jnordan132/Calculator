@@ -7,4 +7,12 @@ int main() {
   char op;
   float num2;
 
+  cout << "Enter your first number: ";
+  cin >> num1;
+
+  cout << "Enter operator: +, -, *, /: ";
+  cin >> op;
+
+  cout << "Enter your second operands: ";
+  cin >> num2;
 }
